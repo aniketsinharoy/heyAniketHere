@@ -1,0 +1,125 @@
+.header-class{
+    width: 100%;
+    background-color: #e4f9f5;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    color: #66bfbf;
+    font-weight: 900;
+    margin-top: 4rem;
+    margin-bottom: 0rem;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
+}
+.header-grid p{
+    font-family: 'Sacramento', cursive;
+    font-size: 1.5rem;
+    color: #66bfbf;
+}
+.header-first-row{
+    grid-column: span 2;
+}
+.header-first-row > p{
+    margin: 0rem;
+}
+.header-third-row > p{
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+}
+.header-grid img{
+    grid-row: span 2;
+}
+.flex-rightcorner{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.dp-pic{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+.introduction-class{
+    text-align: center;
+}
+h2{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    text-align: center;
+}
+h3{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+}
+p{
+    color: #40514e;
+    font-family: "Merriweather", serif;
+    font-size: 1rem;
+}
+.introduction-class img{
+    margin-top: 6rem;
+}
+.myskill{
+    margin-top: 3rem;
+}
+.myskill-grid{
+    display: grid;
+    grid-template-columns: 1fr minmax(100px,600px);
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.dp1-pic{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+.contact{
+    text-align: center;
+}
+button{
+    border-color: #11cdd4;
+    background: #11cdd4;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+footer{
+    width: 100%;
+    margin-top: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #e4f9f5;
+    text-align: center;
+}
+footer > div{
+    gap: 10rem;
+    padding-bottom: 3rem;
+}
+a{
+    text-decoration: none;
+    color: #11999e;
+}
