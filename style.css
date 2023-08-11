@@ -123,3 +123,10 @@ a{
     text-decoration: none;
     color: #11999e;
 }
+
+@media (max-width:768px){
+    footer > div{
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
